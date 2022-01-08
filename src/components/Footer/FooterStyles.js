@@ -8,7 +8,7 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterWrapper = styled.div`
-	max-width: 1280px;
+	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 `;
@@ -79,6 +79,7 @@ export const FooterLinksContainer = styled.div`
 	display: flex;
 	justify-content: center;
 
+
 	@media screen and (max-width: 820px) {
 		padding-top: 32px;
 	}
@@ -91,6 +92,8 @@ export const FooterLinkItems = styled.div`
 	text-align: left;
 	box-sizing: border-box;
 	color: #fff;
+	margin: 0 auto;
+
 
 	@media screen and (max-width: 1000px) {
 		align-items: center;
